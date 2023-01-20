@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.row {
+  display: flex;
+}
+
+.col-full {
+  flex-basis: 100%;
+}
+
+.col-half {
+  flex-basis: 50%;
+}
+
+.bg-color {
+  background-color: hsl(212deg 45% 89%);
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.font {
+  font-family: Outfit, sans-serif;
+}
+
+.align-content-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image {
+  max-width: 200px;
+}
+
+.hero-heading {
+  text-align: center;
+}
